@@ -211,6 +211,11 @@ rm -rf ${FILES_TO_DELETE}
 mkdir /home
 mkdir /var
 mkdir /frzr_root
+mkdir /home/sd
+cd /home/sd
+wget https://github.com/cmdr2/stable-diffusion-ui/releases/latest/download/Easy-Diffusion-Linux.zip
+unzip Easy-Diffusion-Linux.zip
+rm Easy-Diffusion-Linux.zip
 EOF
 
 # copy files into chroot again

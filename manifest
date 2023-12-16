@@ -2,8 +2,8 @@
 
 export VERSION="45"
 export SYSTEM_DESC="ChimeraOS"
-export SYSTEM_NAME="chimeraos"
-export USERNAME="gamer"
+export SYSTEM_NAME="bonkers"
+export USERNAME="asprb"
 export SIZE="10000MB"
 export ARCHIVE_DATE=$(date -d 'yesterday' +%Y/%m/%d)
 export WEBSITE="https://chimeraos.org"
@@ -131,6 +131,7 @@ export PACKAGES="\
 	sshfs \
 	steam \
 	sudo \
+	syncthing \
 	tar \
 	tree \
 	ttf-liberation \
@@ -218,6 +219,8 @@ export AUR_PACKAGES="\
 	steam-removable-media-git \
 	wyvern \
 	zenergy-dkms-git \
+	sunshine \
+	octoprint
 "
 
 export SERVICES="\
@@ -241,6 +244,7 @@ export USER_SERVICES="\
 	gamemoded.service \
 	pipewire \
 	steam-patch.service \
+	syncthing
 "
 
 export FILES_TO_DELETE="\
